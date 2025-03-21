@@ -52,20 +52,6 @@ def load_data():
                 pass
 
 
-
-def shortest_path(source, target):
-    
-    """
-    Returns the shortest list of (movie_id, person_id) pairs
-    that connect the source to the target.
-
-    If no possible path, returns None.
-    """
-
-    # TODO
-    raise NotImplementedError
-
-
 def person_id_for_name(name):
     """
     Returns the IMDB id for a person's name,
